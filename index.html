@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bilangan Ganjil</title>
+</head>
+<body>
+    Algoritma : <br>
+    <ul>
+        <li>1.Mulai</li>
+        <li>2.Mendeklarasikan nilai awal yaitu 1 dan bilangan akhir contoh 10</li>
+        <li>3.while nilai kurang dari sama dengan nilai akhir, maka akan ada dua kondisi</li>
+        <li>4.Kondisi pertama yaitu nilai modulo 2 = 0 maka akan dinyatakan bilangan genap dan tidak akan ditampilkan</li>
+        <li>5.Kondisi kedua akan menampilkan nilai yang nilainya ganjil sampah nilai akhir</li>
+        <li>6.Karena nilai akhir disini 10 maka akan sampai 9, karena 10 mod 2 = 0</li>
+        <li>7.Selesai</li>
+    </ul>
+   <script type="text/javascript">
+   		var nilai = 1;
+   		var akhir = 10;
+       while( nilai <= akhir ){
+   		if(nilai%2==0){
+               // Genap tidak akan ditampilkan
+           }
+        else{
+   			document.write(nilai+" ");
+        }
+   		nilai++;
+   	}
+   </script>
+</body>
+</html>
